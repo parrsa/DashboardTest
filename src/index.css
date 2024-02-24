@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "yekan";
+  src: url(./assets/font/Yekan.ttf);
+}
+
+* {
+  scrollbar-width: 2px;
+  scrollbar-color: white;
+  font-family: "yekan";
+  margin: 0;
+  padding: 0;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #e4e4e4;
+  border-radius: 3.5px;
+}
+
+.p {
+  background-color: #111927;
+  /* background-image:
+    radial-gradient(at 47% 33%, hsl(162.00, 77%, 40%) 0, transparent 59%),
+    radial-gradient(at 82% 65%, hsl(218.00, 39%, 11%) 0, transparent 55%); */
+  background-image: url('./assets/images/Rectangle 1 (1).png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form {
+  /* From https://css.glass */
+  background: rgba(224, 222, 222 , 0.5);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(155, 153, 153, 0.1);
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(48, 48, 48, 0.56);
+}
